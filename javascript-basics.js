@@ -39,3 +39,24 @@ console.log(job);
 
  let age = prompt('what is her age?') // will take user input and set variable to it
  console.log(age)
+
+ /****************************
+ * Basic operators
+ */
+let year, ageCat, ageSam;
+ year = 2019
+ ageSam = 30
+ ageCat = 32
+ let yearSam = year - 30
+ let yearCat = year - 32
+ 
+ console.log(yearSam)
+
+
+ // Logical operators
+let catOlder = ageCat > ageSam;
+console.log(catOlder)
+
+// typeof operator
+console.log(typeof catOlder) // returns boolean
+console.log(typeof ageSam) // return number
