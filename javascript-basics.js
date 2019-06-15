@@ -43,7 +43,7 @@ console.log(job);
  /****************************
  * Basic operators
  */
-let year, ageCat, ageSam;
+let year, ageCat, ageSam
  year = 2019
  ageSam = 30
  ageCat = 32
@@ -60,3 +60,16 @@ console.log(catOlder)
 // typeof operator
 console.log(typeof catOlder) // returns boolean
 console.log(typeof ageSam) // return number
+
+
+ /****************************
+ * Operator precedence
+ */
+
+ let now = 2019;
+ let yearSam = 30;
+ let fullAge = 18;
+
+ let isFullAge = now - yearSam >= fullAge // -, then >=, then =
+
+ 
