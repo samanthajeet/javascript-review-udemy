@@ -72,4 +72,21 @@ console.log(typeof ageSam) // return number
 
  let isFullAge = now - yearSam >= fullAge // -, then >=, then =
 
- 
+ // multiple assignments
+ let x, y;
+
+ x = y = (3+5) * 4 - 6; // assignment operator works right to left
+
+
+  /****************************
+ * If / else statements
+ */
+
+ let firstName = 'Sam';
+ let civilStatus = 'single';
+
+ if (civilStatus === 'married') {
+   console.log(`${firstName} + is married`)
+ } else {
+   console.log(`${firstName} is not married`)
+ }
